@@ -2,35 +2,36 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Visão Geral
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+micro-saas-authApp é uma aplicação web desenvolvida usando Next.js. Ela fornece uma estrutura simples para construir uma aplicação de autenticação como um serviço (Auth-as-a-Service).
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+Next.js
+Tailwind CSS
+Shadcn
+NextAuth.js
+Prisma
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Funcionalidades Principais
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1 - [Autenticação de Usuários]: Implementada usando NextAuth.js, que oferece suporte a várias provedoras de autenticação, como Google, Facebook, GitHub, etc.
 
-## Deploy on Vercel
+2 - [Banco de Dados]: O Prisma é utilizado como ORM para interagir com o banco de dados, fornecendo uma interface de programação de aplicativos (API) para o banco de dados SQL.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3 - [Estilização]: Tailwind CSS é utilizado para estilização, permitindo uma abordagem de desenvolvimento baseada em classes.
